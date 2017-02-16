@@ -1,0 +1,25 @@
+{
+  "name": "blog_site",
+  "version": "1.0.0",
+  "description": "RESTful Routing using Express JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafazor/BlogSite.git"
+  },
+  "author": "Rafa Calin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rafazor/BlogSite/issues"
+  },
+  "homepage": "https://github.com/Rafazor/BlogSite#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "ejs": "^2.5.5",
+    "express": "^4.14.1",
+    "moongoose": "0.0.5"
+  }
+}

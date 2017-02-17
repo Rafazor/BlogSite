@@ -20,6 +20,7 @@
     "body-parser": "^1.16.1",
     "ejs": "^2.5.5",
     "express": "^4.14.1",
+    "mongoose": "^4.8.3",
     "moongoose": "0.0.5"
   }
 }

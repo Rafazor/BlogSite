@@ -23,12 +23,6 @@ var blogSchema = new mongoose.Schema({
 });
 var Blog = mongoose.model("Blog", blogSchema);
 
-// Blog.create({
-//   title: "Test Blog",
-//   image: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS6vlRTlRQ77xYzsW47pQIXytxOz3ZHK42erxY9t8t76qJEb5FxAw",
-//   body: "Minge Tampita dsdasdasda adsaaaaaaaaa"
-// });
-
 //REST Routes
 app.get("/", function(req, res) {
     res.redirect("/blogs");
